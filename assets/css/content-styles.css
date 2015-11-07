@@ -38,3 +38,31 @@
 	font-stretch: normal;
 	unicode-range: U+0-10FFFF;
 }
+
+*{
+	box-sizing:border-box;
+}
+
+
+body{
+
+	background: #ffffff url(../images/map.png") no repeat;
+	background-size: cover;
+}
+
+
+.logo{
+
+
+}
+
+body > ul {
+
+
+}
+
+body > ul li {
+
+
+}
+
