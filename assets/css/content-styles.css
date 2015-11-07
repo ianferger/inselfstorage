@@ -46,23 +46,55 @@
 
 body{
 
-	background: #ffffff url(../images/map.png") no repeat;
-	background-size: cover;
+
+	background-color: #ffffff;
 }
 
+main{
 
+
+
+	position: relative;
+	width:1024px;
+	height: 680px;
+	margin: auto;
+	float: none;
+	background: url(../images/placeholder.png) no-repeat;
+	background-size: cover;
+	pointer-events: none;
+}
+/*
 .logo{
 
-
-}
-
-body > ul {
-
-
-}
-
-body > ul li {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: cover;
+	pointer-events: none;
 
 
 }
 
+main> ul {
+	height:100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: auto;
+	list-style:none;
+	list-style-type: none;
+	padding: 0;
+	background-color: rgba(217,229,234,.5);
+
+}
+main > ul > li {
+	width: 25%;
+	height: 100%;
+
+
+}
+
+*/
